@@ -1,3 +1,20 @@
+export IQGEN_HOME=/Users/rr/develop/rms/ude/tools/iQgen
+export UDE_HOME=/Users/rr/develop/rms/ude/
+export BYTEMAN_HOME=~/develop/tools/byteman-2.1.0
+export FORGE_HOME=~/develop/tools/forge
+export NODE_PATH=/usr/local/lib/node_modules
+
+export JAVA_HOME=`/usr/libexec/java_home --version 1.7`
+export CLASSPATH='/Users/rr/develop/db2_driver/db2jcc4.jar:/Users/rr/develop/db2_driver/db2jcc_license_cu.jar:'
+export ANT_OPTS='-Xmx501m -XX:MaxPermSize=256m'
+export MAVEN_OPTS='-client -Xmx768m -XX:MaxPermSize=512m'
+export JAVA_TOOL_OPTIONS='-Dfile.encoding=ISO-8859-1'
+export PATH=/usr/local/bin:$PATH:$FORGE_HOME/bin:$BYTEMAN_HOME/bin:/usr/local/share/npm/bin:/Users/rr/develop/tools/jadmx158:
+
+# prefer updated coreutils - installed via brew
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
 # Make vim the default editor
 export EDITOR="vim"
 
@@ -9,8 +26,8 @@ export HISTCONTROL=ignoredups
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
 # Prefer US English and use UTF-8
-export LANG="en_US"
-export LC_ALL="en_US.UTF-8"
+# export LANG="en_US"
+# export LC_ALL="en_US.UTF-8"
 
 # Highlight section titles in manual pages
 export LESS_TERMCAP_md="$ORANGE"
