@@ -13,7 +13,8 @@ curl -L https://get.rvm.io | bash -s stable --ruby
 # homebrew
 ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 
-
+# https://github.com/juven/maven-bash-completion
+wget https://raw.github.com/juven/maven-bash-completion/master/bash_completion.bash -O ~/.maven_bash_completion.bash
 
 # https://github.com/rupa/z
 cd ~/code

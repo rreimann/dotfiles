@@ -39,6 +39,10 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
+# https://github.com/juven/maven-bash-completion
+if [ -f ~/.maven_bash_completion.bash ]; then
+  . ~/.maven_bash_completion.bash
+fi
 
 [[ -s "/Users/rr/.rvm/scripts/rvm" ]] && source "/Users/rr/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
