@@ -1,6 +1,7 @@
 # Java stuff
 alias java6='export JAVA_HOME=`/usr/libexec/java_home --version 1.6`; java -version; javac -version'
 alias java7='export JAVA_HOME=`/usr/libexec/java_home --version 1.7`; java -version; javac -version'
+alias java8='export JAVA_HOME=`/usr/libexec/java_home --version 1.8`; java -version; javac -version'
 
 alias utf='export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8'
 alias iso='export JAVA_TOOL_OPTIONS=-Dfile.encoding=ISO-8859-1'
