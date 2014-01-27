@@ -9,6 +9,10 @@ alias iso='export JAVA_TOOL_OPTIONS=-Dfile.encoding=ISO-8859-1'
 alias detect-encoding='find -R . -exec file -I {} \;'
 alias svn-diff='svn diff --diff-cmd diff -x "-b -B --strip-trailing-cr"'
 
+# Node Stuff
+alias node='node --harmony'  # Koa requires harmony flag
+alias npme='npm --registry http://registry.npmjs.eu'
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."

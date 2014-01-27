@@ -32,6 +32,7 @@ brew install tree
 
 brew install git
 brew install maven
+brew install node --devel
 
 # brew tap homebrew/versions
 # brew install subversion17 # default in mavericks
