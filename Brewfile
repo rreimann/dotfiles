@@ -23,6 +23,9 @@ install bash
 # Install wget with IRI support
 install wget --enable-iri
 
+# Install http://stedolan.github.io/jq/ - a command-line JSON processor
+install jq
+
 # Install more recent versions of some OS X tools
 tap homebrew/dupes
 install homebrew/dupes/grep
