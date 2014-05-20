@@ -199,3 +199,13 @@ EOF
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX
 }
+
+function light() {
+  if [ -z "$2" ]
+    then src="pbpaste"
+  else
+    src="cat $2"
+  fi
+  # $src | highlight -O rtf --syntax $1 --font Inconsolata --style solarized-dark --font-size 24 | pbcopy
+  $src | highlight -O rtf --syntax $1 --font Monaco --style bclear --font-size 24 | pbcopy
+}
