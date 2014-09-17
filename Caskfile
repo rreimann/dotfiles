@@ -1,0 +1,54 @@
+# Install native apps
+# Usage: `brew bundle Caskfile`
+
+install caskroom/cask/brew-cask
+tap caskroom/versions
+
+# essentials
+cask install sublime-text
+cask install iterm2
+cask install clipmenu
+
+cask install dropbox
+cask install evernote
+cask install truecrypt
+cask install virtualbox
+cask install vlc
+
+# developer tools
+cask install java
+cask install java7
+cask install java6
+cask install intellij-idea
+cask install diffmerge
+cask install versions
+
+# web / social
+cask install firefox-de
+cask install google-chrome
+cask install adium
+cask install skype
+cask install vienna
+
+# others
+cask install appcleaner
+cask install bodega
+cask install calibre
+cask install clamxav
+cask install cyberduck
+cask install disk-inventory-x
+cask install google-drive
+cask install handbrake
+cask install ireadfast
+cask install jdownloader2
+cask install namechanger
+cask install onyx
+cask install torbrowser
+cask install unrarx
+
+# Quicklook plugins 
+# - Pacifist prompts to install its QL-plugin when the app is executed the first time
+# - other plugins via https://github.com/sindresorhus/quick-look-plugins
+cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql
+
+

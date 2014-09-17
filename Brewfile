@@ -14,7 +14,7 @@ upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated)
 install coreutils
-echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
+#echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 install findutils
 # Install Bash 4
@@ -41,7 +41,7 @@ install tree
 
 install git
 install maven
-install node --devel
+# install node --devel
 
 # tap homebrew/versions
 # install subversion17 # default in mavericks

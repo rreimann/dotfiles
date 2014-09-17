@@ -9,7 +9,7 @@ export CLASSPATH='/Users/rr/develop/db2_driver/db2jcc4.jar:/Users/rr/develop/db2
 export ANT_OPTS='-Xmx501m -XX:MaxPermSize=256m'
 export MAVEN_OPTS='-client -Xmx768m -XX:MaxPermSize=512m'
 export JAVA_TOOL_OPTIONS='-Dfile.encoding=ISO-8859-1'
-export PATH=/usr/local/bin:$PATH:$FORGE_HOME/bin:$BYTEMAN_HOME/bin:/usr/local/share/npm/bin:/Users/rr/develop/tools/jadmx158:
+export PATH=/usr/local/bin:$PATH:$FORGE_HOME/bin:$BYTEMAN_HOME/bin:/Users/rr/develop/bin:
 
 # prefer updated coreutils - installed via brew
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"

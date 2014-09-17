@@ -47,7 +47,7 @@ fi
 [[ -s "/Users/rr/.rvm/scripts/rvm" ]] && source "/Users/rr/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 # nvm: Manage multiple node.js versions
-source $(brew --prefix nvm)/nvm.sh
+# source $(brew --prefix nvm)/nvm.sh
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/rr/.gvm/bin/gvm-init.sh" && -z $(which gvm-init.sh | grep '/gvm-init.sh') ]] && source "/Users/rr/.gvm/bin/gvm-init.sh"

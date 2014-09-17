@@ -1,0 +1,37 @@
+# Install optional native apps
+# Usage: `brew bundle CaskfileOptionals`
+
+# install caskroom/cask/brew-cask
+# tap caskroom/versions
+
+# postponed - on demand
+cask install adobe-air
+cask install adobe-reader
+cask install bbc-iplayer-downloads
+cask install fairmount
+#cask install flash-player // doesn't install browser plugins?
+cask install flip4mac
+cask install gfxcardstatus
+cask install google-earth
+cask install istumbler
+cask install namebench
+cask install silverlight
+cask install sweet-home3d
+cask install transmission
+
+# alternatives
+cask install p4merge
+cask install kdiff3
+
+# comercial
+cask install dash
+cask install mdrp // older version
+cask install omnigraffle // older version
+cask install onepassword
+cask install pacifist
+cask install paragon-ntfs // prefer tuxera ntfs instead?!
+cask install textmate
+cask install titianium-studio
+
+
+
