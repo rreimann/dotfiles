@@ -31,7 +31,7 @@
 	helper = osxkeychain
 
 [apply]
-	# Detect whitespace errors when applying a patch -- RR: causes indent issues during rebase - see: https://github.com/mathiasbynens/dotfiles/issues/193
+	# Detect whitespace errors when applying a patch -- RR: causes indent/whitespace issues during rebase - see: https://github.com/mathiasbynens/dotfiles/issues/193
 	# whitespace = fix
 
 [core]
@@ -44,6 +44,7 @@
 	# [default] space-before-tab: looks for spaces before tabs at the beginning of
 	# a line
 	# whitespace = space-before-tab,indent-with-non-tab,trailing-space
+	autocrlf = input
 
 [color]
 	# Use colors in Git commands that are capable of colored output when
@@ -82,3 +83,8 @@
 
 [push]
 	default = matching
+[user]
+	name = rreimann
+	email = robert.reimann@googlemail.com
+[pull]
+	rebase = true
