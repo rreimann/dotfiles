@@ -32,12 +32,16 @@ install homebrew/dupes/grep
 
 
 # Install other useful binaries
-install ack
+install ack # replaced by the even faster silver searcher ag
+install ag
 install bash-completion
 install cloc
 install recode
 install rename
 install tree
+
+# colored CLI diff
+install icdiff
 
 install git
 install maven
