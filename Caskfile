@@ -11,22 +11,21 @@ cask install clipmenu
 
 cask install dropbox
 cask install evernote
-cask install truecrypt
 cask install virtualbox
 cask install vlc
 
 # developer tools
 cask install java
 cask install java7
-cask install java6
 cask install intellij-idea
-cask install diffmerge
+cask install diffmerge # see https://sourcegear.com/diffmerge/webhelp/sec__inst__mac.html if shell command is missing
 cask install versions
+cask install licecap # record screen as animated gif
 
 # web / social
 cask install firefox-de
 cask install google-chrome
-cask install adium
+#cask install adium
 cask install skype
 cask install vienna
 

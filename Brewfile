@@ -25,6 +25,8 @@ install wget --enable-iri
 
 # Install http://stedolan.github.io/jq/ - a command-line JSON processor
 install jq
+# Install https://github.com/ericchiang/pup - a command-line HTML processor
+install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb
 
 # Install more recent versions of some OS X tools
 tap homebrew/dupes
@@ -32,13 +34,14 @@ install homebrew/dupes/grep
 
 
 # Install other useful binaries
-install ack # replaced by the even faster silver searcher ag
-install ag
+install ack
+# install ag # ack was replaced by the even faster silver searcher ag
 install bash-completion
 install cloc
 install recode
 install rename
 install tree
+install moreutils
 
 # colored CLI diff
 install icdiff
