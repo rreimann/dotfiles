@@ -12,10 +12,6 @@ alias svn-diff='svn diff --diff-cmd diff -x "-b -B --strip-trailing-cr"'
 # IntelliJ as diff tool
 alias idiff='/Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea diff $'
 
-# Node Stuff
-alias node='node --harmony'  # Koa requires harmony flag
-alias npme='npm --registry http://registry.npmjs.eu'
-
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
