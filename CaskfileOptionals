@@ -1,7 +1,6 @@
 # Install optional native apps
 # Usage: `brew bundle CaskfileOptionals`
 
-# install caskroom/cask/brew-cask
 # tap caskroom/versions
 
 # postponed - on demand

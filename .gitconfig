@@ -83,8 +83,22 @@
 
 [push]
 	default = matching
-[user]
-	name = rreimann
-	email = robert.reimann@googlemail.com
+
 [pull]
 	rebase = true
+
+[commit]
+	template = /Users/rr/.stCommitMsg
+
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+
+# project betty
+[gitreview]
+    remote = origin
+
+[includeIf "gitdir:~/develop/projects/remote/git/innoq/betty/"]
+    path = ~/develop/projects/remote/git/innoq/betty/.gitconfig_include

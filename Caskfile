@@ -1,7 +1,10 @@
 # Install native apps
 # Usage: `brew bundle Caskfile`
 
-install caskroom/cask/brew-cask
+# tab completion for brew cask
+install homebrew/completions/brew-cask-completion
+
+# alternative versions
 tap caskroom/versions
 
 # essentials
@@ -16,7 +19,7 @@ cask install vlc
 
 # developer tools
 cask install java
-cask install java7
+cask install java8
 cask install intellij-idea
 cask install diffmerge # see https://sourcegear.com/diffmerge/webhelp/sec__inst__mac.html if shell command is missing
 cask install versions
@@ -44,6 +47,7 @@ cask install namechanger
 cask install onyx
 cask install torbrowser
 cask install unrarx
+cask install knockknock
 
 # Quicklook plugins 
 # - Pacifist prompts to install its QL-plugin when the app is executed the first time

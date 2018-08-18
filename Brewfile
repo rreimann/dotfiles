@@ -57,5 +57,7 @@ install maven
 tap telemachus/homebrew-desc
 install brew-desc
 
+install get_iplayer
+
 # Remove outdated versions from the cellar
 cleanup

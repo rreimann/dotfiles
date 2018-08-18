@@ -53,4 +53,5 @@ fi
 [[ -s "/Users/rr/.gvm/bin/gvm-init.sh" && -z $(which gvm-init.sh | grep '/gvm-init.sh') ]] && source "/Users/rr/.gvm/bin/gvm-init.sh"
 
 # To enable jenv shims and autocompletion add to your profile:
-if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
