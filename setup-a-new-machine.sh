@@ -12,7 +12,6 @@
 mkdir -p ~/migration/home/
 mkdir -p ~/migration/Library/"Application Support"/
 mkdir -p ~/migration/Library/Preferences/
-mkdir -p ~/migration/Library/Application Support/
 mkdir -p ~/migration/rootLibrary/Preferences/SystemConfiguration/
 
 cd ~/migration
@@ -20,6 +19,7 @@ cd ~/migration
 # what is worth reinstalling?
 brew leaves              > brew-list.txt    # all top-level brew installs
 brew cask list           > cask-list.txt
+brew bundle dump         # => Brewfile
 npm list -g --depth=0    > npm-g-list.txt
 
 # then compare brew-list to what's in `brew.sh`
@@ -28,14 +28,8 @@ npm list -g --depth=0    > npm-g-list.txt
 # backup some dotfiles likely not under source control
 cp -Rp \
     ~/.bash_history \
-    ~/.extra ~/.extra.fish \
-    ~/.gitconfig.local \
+    ~/.extra \
     ~/.gnupg \
-    ~/.nano \
-    ~/.nanorc \
-    ~/.netrc \
-    ~/.ssh \
-    ~/.z   \
         ~/migration/home
 
 cp -Rp ~/Documents ~/migration

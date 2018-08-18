@@ -52,6 +52,5 @@ cask install knockknock
 # Quicklook plugins 
 # - Pacifist prompts to install its QL-plugin when the app is executed the first time
 # - other plugins via https://github.com/sindresorhus/quick-look-plugins
-cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql
-
+cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql suspicious-package
 

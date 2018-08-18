@@ -1,63 +1,141 @@
-# Usage: brew bundle [path]
-# 
-# Looks for a Brewfile and runs each line as a brew command.
-# 
-# brew bundle              # Looks for "./Brewfile"
-# brew bundle path/to/dir  # Looks for "path/to/dir/Brewfile"
-# brew bundle path/to/file # Looks for "path/to/file"
+tap "buo/cask-upgrade"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/completions"
+tap "homebrew/core"
+tap "homebrew/dupes"
+tap "homebrew/versions"
 
-# Make sure we’re using the latest Homebrew
-update
+brew "ant"
+#brew "awscli"
+brew "bash"
+brew "bash-completion"
+brew "brew-cask-completion"
+brew "chromedriver"
+brew "cloc"
+#brew "cmake"
+brew "coreutils"
+brew "curl"
+brew "direnv"
+brew "dos2unix"
+#brew "epubcheck"
+brew "fd"
+#brew "ffmpeg"
+brew "findutils"
+brew "get_iplayer"
+#brew "ghostscript"
+brew "git"
+brew "git-lfs"
+brew "git-quick-stats"
+brew "git-review"
+#brew "gnupg"
+brew "grep"
+brew "highlight"
+brew "httpie"
+#brew "hunspell"
+brew "icdiff"
+brew "id3v2"
+#brew "ispell"
+brew "jenv"
+brew "jq"
+brew "kotlin"
+brew "kubernetes-cli"
+brew "kubernetes-helm"
+brew "mas"
+brew "maven"
+brew "moreutils"
+#brew "mplayer"
+#brew "nmap"
+brew "node"
+brew "pandoc"
+brew "pdfgrep"
+brew "pup"
+#brew "python"
+brew "recode"
+brew "rename"
+brew "ripgrep"
+brew "rsync"
+#brew "rtmpdump"
+#brew "sbt"
+brew "subversion"
+brew "tidy-html5"
+brew "tldr"
+brew "tree"
+brew "watch"
+brew "wget"
+#brew "youtube-dl"
+brew "zsh"
+brew "zsh-completions"
 
-# Upgrade any already-installed formulae
-upgrade
+#cask "adobe-reader"
+cask "appcleaner"
+cask "betterzipql"
+cask "calibre"
+cask "clipy"
+cask "cyberduck"
+cask "diffmerge"
+cask "docker"
+cask "dropbox"
+cask "epubquicklook"
+cask "evernote"
+cask "firefox"
+cask "google-backup-and-sync"
+cask "google-chrome"
+cask "gpg-suite"
+cask "handbrake"
+cask "ireadfast"
+cask "iterm2"
+cask "java"
+cask "java8"
+cask "jdownloader"
+cask "knockknock"
+cask "licecap"
+cask "namechanger"
+cask "omnidisksweeper"
+cask "onyx"
+cask "portfolioperformance"
+cask "qlcolorcode"
+cask "qlmarkdown"
+cask "qlprettypatch"
+cask "qlstephen"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "sabnzbd"
+cask "skype"
+cask "slack"
+#cask "sourcetree" OR "fork"
+#cask "soapui"
+cask "sublime-text"
+cask "suspicious-package"
+cask "the-unarchiver"
+# cask "teamviewer"
+cask "torbrowser"
+cask "unrarx"
+cask "versions"
+cask "vidyo"
+cask "vienna"
+cask "virtualbox"
+cask "vlc"
+cask "windscribe"
+cask "wine-stable"
+#cask "xquartz"
 
-# Install GNU core utilities (those that come with OS X are outdated)
-install coreutils
-#echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-install findutils
-# Install Bash 4
-install bash
-
-# Install wget with IRI support
-install wget --enable-iri
-
-# Install http://stedolan.github.io/jq/ - a command-line JSON processor
-install jq
-# Install https://github.com/ericchiang/pup - a command-line HTML processor
-install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb
-
-# Install more recent versions of some OS X tools
-tap homebrew/dupes
-install homebrew/dupes/grep
-
-
-# Install other useful binaries
-install ack
-# install ag # ack was replaced by the even faster silver searcher ag
-install bash-completion
-install cloc
-install recode
-install rename
-install tree
-install moreutils
-
-# colored CLI diff
-install icdiff
-
-install git
-install maven
-# install node --devel
-
-# tap homebrew/versions
-# install subversion17 # default in mavericks
-
-# https://github.com/mxcl/homebrew/wiki/External-Commands
-tap telemachus/homebrew-desc
-install brew-desc
-
-install get_iplayer
-
-# Remove outdated versions from the cellar
-cleanup
+#mas "AJA System Test Lite", id: 1092006274
+#mas "BitdefenderVirusScanner", id: 500154009
+#mas "Blackmagic Disk Speed Test", id: 425264550
+#mas "Boxy SVG", id: 611658502
+#mas "CHM Reader", id: 424182884
+#mas "DrCleaner", id: 921458519
+#mas "GarageBand", id: 682658836
+#mas "Image2Icon", id: 992115977
+#mas "iMovie", id: 408981434
+#mas "iPhoto", id: 408981381
+#mas "Keynote", id: 409183694
+#mas "Letter Opener Lite", id: 411897373
+#mas "Microsoft Remote Desktop", id: 715768417
+#mas "Numbers", id: 409203825
+#mas "Pages", id: 409201541
+#mas "Skitch", id: 425955336
+#mas "Time Out", id: 402592703
+#mas "WiFi Signal", id: 525912054
